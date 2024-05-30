@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/shortcut-icon.png">
+    <link rel="stylesheet" href="contact.css">
+    <title>ST Restoran | İletişim</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo">ST Restoran</a></li>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>İletişim</h1>
+        <div class="contact-section">
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ST Restoran. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
